@@ -1,0 +1,27 @@
+{
+  "name": "xhr",
+  "version": "2.0.0",
+  "description": "xhr, as promised.",
+  "main": "index.js",
+  "browser": {
+    "./node.js": false
+  },
+  "dependencies": {
+    "promise": ">2 <7",
+    "xhr": "git://github.com/nathan7/xhr-obj"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathan7/xhr"
+  },
+  "keywords": [
+    "xhr",
+    "http"
+  ],
+  "author": "Nathan Zadoks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathan7/xhr/issues"
+  }
+}
